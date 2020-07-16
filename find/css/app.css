@@ -1,0 +1,98 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.head img{
+	height: 64px;
+	width: 64px;
+}
+.head2 img{
+	height: 24px;
+}
+.overposit{
+	 position: relative;
+}
+.over{
+	position: absolute;
+	top: 19px;
+	right: 24%;
+}
+.title{
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 120%;
+}
+.pt-5, .py-5 {
+    padding-top: 7rem!important;
+}
+div.like{
+	margin-left: -15px;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	font-style: 400;
+	font-size: 20px;
+	line-height: 120%;
+	align-self: left;
+	vertical-align: top;
+	letter-spacing: -3%;
+}
+.title1{
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 120%;
+}
+.line{
+	 border-left: 3px solid black;
+    padding-left: 20px;
+}
+.line2{
+	 border-left: 1px solid #C4C4C4;
+    padding-left: 20px;
+}
+.line3{
+	 border-left: 2px solid #C4C4C4;
+    padding-left: 20px;
+}
+div.body{
+	background-color: rgba(168, 218, 220, 0.13);
+}
+form {
+  display:flex;
+  flex-direction:row;
+  border:1px solid grey;
+  padding:2px;
+  border-radius: 28px;
+}
+::placeholder {
+	padding: 23px;
+
+}
+
+input {
+  flex-grow:2;
+  border:none;
+  margin-left: 12px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border:1px solid blue;
+  background:blue;
+  color:white;
+  border-radius: 30px;
+
+}
+.btn.btn-primary.btn-lg{
+	border-radius: 40px;
+	margin: 4px;
+}
+.down{
+	background-color: #C2B0F7;
+}
+.container.call{
+	padding-bottom: 300px;
+	padding-top: 300px;
+}
